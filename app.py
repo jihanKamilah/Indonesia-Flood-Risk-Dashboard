@@ -20,7 +20,7 @@ np.random.seed(42)
 # =============================
 # CONFIG
 # =============================
-API_KEY = "ISI_API_MU"
+API_KEY = st.secrets["API_KEY"]
 
 st.set_page_config(layout="wide")
 st.title("Indonesia Flood Risk Monitoring System")
