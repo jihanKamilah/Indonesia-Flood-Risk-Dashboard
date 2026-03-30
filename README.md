@@ -16,7 +16,7 @@ This project aims to bridge that gap by transforming real-time weather forecasts
 
 ## 🚀 Live Demo
 
-*(add Streamlit link here after deployment)*
+https://indonesia-flood-risk-dashboard.streamlit.app/
 
 ---
 
