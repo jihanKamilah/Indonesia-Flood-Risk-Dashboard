@@ -376,3 +376,21 @@ st_folium(m, use_container_width=True)
 st.subheader("Data Preview")
 n = st.selectbox("Rows", [5,10,20,30])
 st.dataframe(df.tail(n))
+
+
+# =============================
+# FOOTER
+# =============================
+st.markdown("---")
+st.markdown(
+    """
+    <div style="text-align: center; font-size: 14px;">
+        © 2026 Indonesia Flood Risk Monitoring System <br><br>
+        Built by <b>Jihan Kamilah</b> <br>
+        <a href="https://github.com/jihanKamilah" target="_blank">GitHub</a> |
+        <a href="https://medium.com/@jihankamilah" target="_blank">Medium</a> |
+        <a href="https://www.linkedin.com/in/jihan-kamilah/" target="_blank">LinkedIn</a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
